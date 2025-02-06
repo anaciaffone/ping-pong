@@ -4,7 +4,7 @@ const ctx = canvas.getContext("2d");
 canvas.width = 1000;
 canvas.height = 600;
 
-const socket = new WebSocket("ws://ping-pong-go05.onrender.com");
+const socket = new WebSocket(`wss://${window.location.hostname}`);
 
 const startBtn = document.getElementById("startBtn");
 startBtn.addEventListener("click", () => {
