@@ -9,4 +9,4 @@ services:
     rootDir: .  # Set the root directory if needed
     envVars:
       - key: PORT
-        value: 10000  # Change if needed
+        value: 3000  # Change if needed
